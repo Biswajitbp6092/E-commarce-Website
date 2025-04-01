@@ -14,17 +14,17 @@ li {
 a {
   text-decoration: none;
 }
-img {
+/* img {
   height: auto;
   max-width: 100%;
   vertical-align: middle;
-}
+} */
 
 :root {
   --white-color: #ffffff;
   --secondary-white-color: #d7d7d7;
   --black-color: #000000;
-  --secondary-black-color:#333333;
+  --secondary-black-color: #333333;
   --primary-color: #f26522;
   --secondary-color: #1cc8ae;
   --tertiary-color: #002e5b;
@@ -52,6 +52,7 @@ img {
 .topnav .brand-logo {
   cursor: pointer;
 }
+
 .topnav .search-bar {
   width: 50%;
   display: flex;
@@ -151,28 +152,25 @@ img {
   width: 100%;
 }
 
-
-
-
-.products .trending{
+.products .trending {
   margin: 1.5rem 0;
   padding: 10px 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.products .trending .heding{
+.products .trending .heding {
   display: flex;
   gap: 20px;
 }
-.products .trending .heding h2{
+.products .trending .heding h2 {
   font-family: var(--lato);
   text-transform: uppercase;
   color: var(--secondary-black-color);
   font-size: 26px;
   font-weight: bold;
 }
-.products .trending .heding button{
+.products .trending .heding button {
   padding: 0 25px;
   border: 0;
   outline: 0;
@@ -184,12 +182,12 @@ img {
   font-weight: bold;
   background-color: var(--tertiary-color);
   cursor: pointer;
-  transition: all .2s ease;
+  transition: all 0.2s ease;
 }
-.products .trending .heding button:hover{
+.products .trending .heding button:hover {
   transform: translateY(-1px);
 }
-.products .trending .navigator button{
+.products .trending .navigator button {
   margin-top: 10px;
   margin-bottom: 0px !important;
   padding: 4px 8px;
@@ -199,24 +197,23 @@ img {
   border: 0;
   outline: 0;
   cursor: pointer;
-  transition: all .2s ease;
+  transition: all 0.2s ease;
 }
-.products .trending .navigator button:first-child{
+.products .trending .navigator button:first-child {
   margin-right: 10px;
 }
-.products .trending .navigator button:hover{
+.products .trending .navigator button:hover {
   transform: translateY(-2px);
 }
 
-
-.products .products-group{
+.products .products-group {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   width: 100%;
   flex-wrap: wrap;
 }
-.products .products-group .product-cart{
+.products .products-group .product-cart {
   padding: 10px;
   width: 270px;
   height: 350px;
@@ -236,34 +233,34 @@ img {
   padding: 10px 0px;
 }
 
-.products .products-group .product-cart .product-details .product-name{
+.products .products-group .product-cart .product-details .product-name {
   font-family: var(--lato);
   font-size: 16px;
   font-weight: 700;
   color: var(--secondary-black-color);
 }
-.products .products-group .product-cart .product-details .discut-price{
+.products .products-group .product-cart .product-details .discut-price {
   font-family: var(--lato);
   font-size: 16px;
   color: var(--secondary-black-color);
   padding: 5px 0px;
 }
-.products .products-group .product-cart .product-details .discut-price span{
+.products .products-group .product-cart .product-details .discut-price span {
   color: var(--tertiary-color);
   font-weight: bold;
 }
-.products .products-group .product-cart .product-details .price{
+.products .products-group .product-cart .product-details .price {
   font-family: var(--lato);
   font-size: 20px;
   color: var(--primary-color);
   font-weight: bold;
 }
-.products .products-group .product-cart .actionBtn{
+.products .products-group .product-cart .actionBtn {
   width: 100%;
   height: 100%;
   position: absolute;
   top: 100%;
-  left:0;
+  left: 0;
   background-color: #00000093;
   display: flex;
   flex-direction: column;
@@ -272,7 +269,7 @@ img {
   gap: 20px;
   transition: all 0.3s ease-in-out;
 }
-.products .products-group .product-cart .actionBtn button{
+.products .products-group .product-cart .actionBtn button {
   width: 60%;
   padding: 10px 0;
   border-radius: 5px;
@@ -283,10 +280,10 @@ img {
   font-size: 16px;
   color: var(--white-color);
 }
-.products .products-group .product-cart .actionBtn .buy-now{
+.products .products-group .product-cart .actionBtn .buy-now {
   background-color: var(--primary-color);
 }
-.products .products-group .product-cart .actionBtn .add-to-cart{
+.products .products-group .product-cart .actionBtn .add-to-cart {
   background-color: var(--tertiary-color);
 }
 .products .products-group .product-cart .actionBtn .buy-now:hover {
