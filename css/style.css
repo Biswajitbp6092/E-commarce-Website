@@ -5,6 +5,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  overflow-x: hidden;
+}
 ul {
   display: flex;
 }
@@ -14,11 +17,11 @@ li {
 a {
   text-decoration: none;
 }
-/* img {
+img {
   height: auto;
   max-width: 100%;
   vertical-align: middle;
-} */
+}
 
 :root {
   --white-color: #ffffff;
@@ -122,6 +125,10 @@ a {
   font-size: 20px;
   margin-right: 8px;
 }
+.topnav .cart-user .menu-toggle{
+  display: none;
+
+}
 
 .bottomNav {
   background-color: var(--primary-color);
@@ -168,7 +175,7 @@ a {
   font-family: var(--lato);
   text-transform: uppercase;
   color: var(--secondary-black-color);
-  font-size: clamp(1.5rem, 4vw, 2rem);
+  font-size: clamp(1rem, 4vw, 2rem);
   font-weight: bold;
 }
 .products .trending .heding button {
@@ -232,13 +239,13 @@ a {
 
 .products .products-group .product-cart .product-details .product-name {
   font-family: var(--lato);
-  font-size: 16px;
+  font-size: clamp(.8rem, 4vw, 1rem);
   font-weight: 700;
   color: var(--secondary-black-color);
 }
 .products .products-group .product-cart .product-details .discut-price {
   font-family: var(--lato);
-  font-size: 16px;
+  font-size: clamp(.8rem, 4vw, 1rem);
   color: var(--secondary-black-color);
   padding: 5px 0px;
 }
@@ -248,7 +255,7 @@ a {
 }
 .products .products-group .product-cart .product-details .price {
   font-family: var(--lato);
-  font-size: 20px;
+  font-size: clamp(1rem, 4vw, 1.275rem);
   color: var(--primary-color);
   font-weight: bold;
 }
