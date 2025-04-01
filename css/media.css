@@ -10,13 +10,13 @@
   --lato: "Lato", sans-serif;
 }
 
-@media screen and (min-width: 200px) and (max-width: 575px) {
+@media screen and (max-width: 575px) {
   .container {
     width: 100%;
     padding-inline: 1rem;
   }
   .header-top {
-    box-shadow: 0px 0px 8px 0px var(--secondary-black-color);
+    box-shadow: 0px 0px 6px 0px var(--secondary-black-color);
     height: 140px;
     position: relative;
   }
@@ -25,7 +25,7 @@
     height: auto;
     object-fit: contain;
   }
-  .topnav .search-bar{
+  .topnav .search-bar {
     width: 100%;
     position: absolute;
     top: 80px;
@@ -40,7 +40,7 @@
   .topnav .search-bar button {
     font-size: 0;
   }
-  .topnav .search-bar button i{
+  .topnav .search-bar button i {
     font-size: 18px;
   }
   .topnav .cart-user .cartBtn {
@@ -99,4 +99,22 @@
   .active {
     left: 0px;
   }
+
+  .products .trending {
+    justify-content: left;
+  }
+  .products .trending .heding button {
+    display: none;
+  }
+  .products .trending .navigator button {
+    display: none;
+  }
+  .products .products-group .product-cart{
+    width:45%;
+    height: auto;
+    margin-top: 20px;
+
+  }
 }
+
+
